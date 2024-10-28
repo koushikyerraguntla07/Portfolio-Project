@@ -119,3 +119,109 @@ nav h4 {
     border-radius: 50%;
     background-color: #888888d2;
 }
+#page2 {
+    padding-right: 10vw;
+    padding-top: 200px;
+    padding-left: 30px;
+    width: 100%;
+}
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-left: 20px;
+    border-top: 1px solid white;
+}
+.elem img{
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.elem h1{
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .7;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10vw 7px;
+    width: 100%;
+}
+.about img{
+    width: 200px;
+}
+.text-about {
+    width: 25rem;
+
+}
+.text-about h5 {
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+.text-about p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+
+}
+.text-about a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+#subscribe {
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+    background-color: black;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer {
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footerleft {
+    display: flex;
+    gap: 20px;
+}
+
+#footerright {
+    display: flex;
+    gap: 30px;
+}
+
+#footer a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
