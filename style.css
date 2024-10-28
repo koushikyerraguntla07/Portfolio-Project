@@ -2,8 +2,120 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "General Sans";
 }
 html,body {
     width: 100%;
     height: 100%;
+}
+@font-face {
+    font-family: "General sans";
+    src: url(GeneralSans-Regular.otf);
+}
+#main {
+    width: 100%;
+    color: #fff;
+    background-color: black;
+}
+#home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding :35px 55px;
+    font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size:20px ;
+    
+}
+nav h4 {
+    text-transform: uppercase;
+}
+.header{
+    position: relative;
+    bottom: 50px;
+    padding:60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 4.8vw;
+    
+}
+.header h1{
+    opacity: .6;
+}
+.header2{
+    margin-left: 10vw;
+    position: relative;
+    bottom: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 40vw;
+
+}
+.header h4  {
+    position: relative;
+    bottom: 15px;
+    left: 40vw;
+    opacity: 1;
+    font-size: 16px;
+    
+   
+}
+.text-under{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+.left-text {
+    position: relative;
+    top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.home-footer{
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+#pp {
+    padding-right: 150px;
+}
+.icon {
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    color: black;
+    padding-right: 20px;
+
+}
+.iconset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888888d2;
 }
